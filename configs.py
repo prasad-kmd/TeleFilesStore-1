@@ -19,10 +19,12 @@ class Config(object):
 	BANNED_CHAT_IDS = list(set(int(x) for x in os.environ.get("BANNED_CHAT_IDS", "-1001362659779 -1001255795497").split()))
 	OTHER_USERS_CAN_SAVE_FILE = bool(os.environ.get("OTHER_USERS_CAN_SAVE_FILE", True))
 	ABOUT_BOT_TEXT = f"""
-This is Permanent Files Store Bot!
+This is Files Store Bot! Powered by @sinhagiri_visual_studio .
 Send me any file I will save it in my Database. Also works for channel. Add me to channel as Admin with Edit Permission, I will add Save Uploaded File in Channel & add Sharable Button Link.
 
-🤖 **My Name:** [Files Store Bot](https://t.me/{BOT_USERNAME})
+🌐 **Website:** [GAMES & SOFTWARES COMMUNITY](https://g-s-community.blogspot.com/)
+
+🤖 **Bot Name:** [GSCOM Files Store](https://t.me/{BOT_USERNAME})
 
 📝 **Language:** [Python3](https://www.python.org)
 
@@ -30,23 +32,27 @@ Send me any file I will save it in my Database. Also works for channel. Add me t
 
 📡 **Hosted on:** [Heroku](https://heroku.com)
 
-🧑🏻‍💻 **Developer:** @AbirHasan2005
+🧑🏻‍💻 **Developer:** [Cloned Repository](https://github.com/prasad-kmd/TeleFilesStore-1)
 
-👥 **Support Group:** [Linux Repositories](https://t.me/DevsZone)
+👥 **Support Group:** [GAMES & SOFTWARES COMMUNITY](https://t.me/+kM0sllYx2LgzYTg1)
 
-📢 **Updates Channel:** [Discovery Projects](https://t.me/Discovery_Updates)
+📢 **Main Channel:** [SINHAGIRI VISUAL STUDIO](https://t.me/sinhagiri_visual_studio)
 """
 	ABOUT_DEV_TEXT = f"""
-🧑🏻‍💻 **Developer:** @AbirHasan2005
+**GAMES & SOFTWARES COMMUNITY** is aimed to provide those games & software which users want to have. The main goal is to provide direct downloading link without any wait so that users can enjoy unlimited downloads. You can request us about software, game, application etc. and we’ll upload it here as soon as we can.
 
-Developer is Super Noob. Just Learning from Official Docs. Please Donate the developer for Keeping the Service Alive.
 
-Also remember that developer will Delete Adult Contents from Database. So better don't Store Those Kind of Things.
+**GAMES & SOFTWARES COMMUNITY** aims to make easier access to the files for the latest releases, constantly evolving and trying to compete with the time, providing a friendly interface that allow to search for files easier and in more organized way.
 
-[Donate Now](https://www.paypal.me/AbirHasan2005) (PayPal)
+**GAMES & SOFTWARES COMMUNITY** is not a file hosting and strictly hosts no contents and files, we provide only index to already published files on the internet, in the same way as mostly search engines do. We are proud of our friendly team and moderators, we have built a real family of people contributing to the site. We are glad to see all these wonderful people on board and with their help and contributions, the site will continue to work and entertain till infinity (Let’s Hope).
+
+The main objective is to provide everybody most convenient and user-friendly interface of **GAMES & SOFTWARES COMMUNITY** to find and download the files people want in much safer way. We are in continue process of developing the site, to make the best of what is possible to set a new standard among the other sites. In the last, heartily thanks to our friendly community that inspires and encourage us to do what we do.
+
+THANK YOU.
+__GAMES & SOFTWARES COMMUNITY__
 """
 	HOME_TEXT = """
-Hi, [{}](tg://user?id={})\n\nThis is Permanent **File Store Bot**.
+Hi, [{}](tg://user?id={})\n\nThis is **GSCOM File Store Bot**.
 
 Send me any file I will give you a permanent Sharable Link. I Support Channel Also! Check **About Bot** Button.
 """
