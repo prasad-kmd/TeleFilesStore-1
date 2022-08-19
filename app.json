@@ -1,21 +1,21 @@
 {
     "name": "Telegram Files Store Bot",
-    "description": "A Telegram Files Store Bot in Pyrogram by @AbirHasan2005",
+    "description": "A Telegram Files Store Bot in Pyrogram",
     "keywords": [
         "telegram",
         "files",
         "store",
         "bot"
     ],
-    "repository": "https://github.com/AbirHasan2005/PyroFilesStoreBot",
-    "website": "https://telegram.dog/AbirHasan2005",
-    "success_url": "https://t.me/Discovery_Updates",
+    "repository": "https://github.com/prasad-kmd/TeleFilesStore-1",
+    "website": "https://t.me/prasadmadhuranga",
+    "success_url": "https://t.me/sinhagiri_visual_studio",
     "env": {
         "API_ID": {
-            "description": "Get this value from my.telegram.org or @TeleORG_Bot"
+            "description": "Get this value from my.telegram.org"
         },
         "API_HASH": {
-            "description": "Get this value from my.telegram.org or @TeleORG_Bot"
+            "description": "Get this value from my.telegram.org"
         },
         "BOT_TOKEN": {
             "description": "Get this from @BotFather XD"
